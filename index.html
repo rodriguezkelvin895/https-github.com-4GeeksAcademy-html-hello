@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+
+		<meta name="viewport" content="width=device-width" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<script src="https://kit.fontawesome.com/1dbc41dd82.js" crossorigin="anonymous"></script>
+		<title>Insta Foto Feed</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<nav class="navbar navbar-light bg-light">
+				<div class="container">
+					<a class="navbar-brand" href="https://www.InstaKRY">
+						<img
+							src="data:image/png;base64,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"
+							alt=""
+							width="25"
+							height="25"
+							class="d-inline-block align-text-top"
+						/>
+						InstaKRY
+					</a>
+					<div class="navbar-nav">
+						<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">create a new post</button>
+
+						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">...</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-primary">Save changes</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+							>
+								<i class="fas fa-cog"></i>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<a class="dropdown-item" href="#">Something else he</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+			<div class="card-group">
+				<div class="card">
+					<img src="https://picsum.photos/id/217/900/900" class="card-img-top" alt="..." />
+				</div>
+				<div class="card">
+					<img src="https://picsum.photos/id/222/900/900" class="card-img-top" alt="..." />
+				</div>
+				<div class="card">
+					<img src="https://picsum.photos/id/435/900/900" class="card-img-top" alt="..." />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
